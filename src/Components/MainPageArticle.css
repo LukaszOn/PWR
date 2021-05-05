@@ -1,0 +1,27 @@
+.main {
+    background-color: #ebe0b6;
+    z-index: 2;
+    padding: 1rem;
+    clip-path: polygon(0% 20vh,100% 0%,100% 100%,0% 100%);
+  }
+  .arti {
+    padding-top: 10rem;
+    margin: 0 auto 0 auto;
+    max-width: 1300px;
+  }
+  .arti p {
+    font-family: Merriweather;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #000000;
+  }
+  .arti h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Bebas Neue;
+    letter-spacing: 0.04em;
+  }
