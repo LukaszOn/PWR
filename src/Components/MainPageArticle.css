@@ -2,19 +2,44 @@
     background-color: #ebe0b6;
     z-index: 2;
     padding: 1rem;
-    clip-path: polygon(0% 20vh,100% 0%,100% 100%,0% 100%);
+
   }
   .arti {
-    padding-top: 10rem;
+    padding-top: 1rem;
     margin: 0 auto 0 auto;
     max-width: 1300px;
   }
   .arti p {
     font-family: Merriweather;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1em;
     text-align: justify;
     color: #000000;
+  }
+
+  /* .arti p::first-letter {
+    padding-left: 2em;
+  } */
+  .artIMG {
+    width: 100%;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 2.0rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+  h6 {
+    font-size: 1.0rem;
   }
   .arti h1,
   h2,
@@ -24,4 +49,12 @@
   h6 {
     font-family: Bebas Neue;
     letter-spacing: 0.04em;
+    text-align: center;
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    max-width: 800px;
   }

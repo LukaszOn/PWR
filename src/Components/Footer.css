@@ -1,13 +1,13 @@
 .fot1 {
+    display: flex;
+    flex-direction: column;
     background-color: #222222;
     color: white;
   }
   .fot2 {
-    border: solid pink;
     text-align: center;
   }
   .fot3 {
     background-color: #2d2d2d;
-  
     text-align: center;
   }

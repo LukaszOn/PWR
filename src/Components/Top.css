@@ -2,7 +2,9 @@
     display: block;
     width: 100%;
     z-index: 1;
-    height: 90vh;
+    height: 100vh;
+    background-color: #ebe0b6;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
   }
   .intro-header-background {
     background-color: #222;
@@ -29,6 +31,7 @@
   .header-title {
     color: white;
     left: 15vw;
+    right: 15vw;
     top: auto;
     bottom: 25vh;
     position: absolute;
@@ -45,7 +48,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 4em;
-    line-height: 86px;
+    line-height: 1.4em;
     text-align: left;
     letter-spacing: 0.04em;
     color: #ffffff;
