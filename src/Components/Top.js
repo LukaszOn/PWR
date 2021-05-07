@@ -6,9 +6,6 @@ function Top () {
       <header className="header">
         <div className="intro-header-background">
           <img alt="obrazek" src={img4} />
-          <div className="header-overlay-triangle">
-            <span className="arrow"></span>
-          </div>
         </div>
         <div className="header-title">
           <h1>Pacyfikacja Wsi Rudno</h1>

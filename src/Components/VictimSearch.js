@@ -22,7 +22,6 @@ class VictimSearch extends Component {
         const wyswielt = filterOfiara.map(ofiara => {
             return <div className={'id' + ofiara.id}>{ofiara.opis} <p>{ofiara.urodzony}</p></div>
         })
-
         return wyswielt;
     }
     
@@ -30,12 +29,13 @@ class VictimSearch extends Component {
         const filterImg = spisOfiar.map(zdjecie => {
             if (!(zdjecie.imgPATH === '')) {
                     return (
-                    <img alt={'obrazek numer ' + zdjecie.imgPATH} src={zdjecie.imgPATH} className={'idIMG' + zdjecie.id}></img>
+                    <img alt={'obrazek numer ' + zdjecie.id} src={zdjecie.imgPATH} className={'idIMG' + zdjecie.id}></img>
                     );
                 }
         })
         return filterImg;
     }
+
     render() {
         return (
             <div className="VictimSearch">
