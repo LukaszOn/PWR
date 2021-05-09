@@ -5,7 +5,7 @@ function Top () {
     return (
       <header className="header">
         <div className="intro-header-background">
-          <img alt="obrazek" src={img4} />
+          <img alt="obrazek" src={img4} className="kenburns-top" />
         </div>
         <div className="header-title">
           <h1>Pacyfikacja Wsi Rudno</h1>

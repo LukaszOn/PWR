@@ -28,6 +28,21 @@
     object-fit: cover;
   }
  
+  .kenburns-top {
+    animation: kenburns-top 45s ease both infinite alternate;
+  }
+
+  @keyframes kenburns-top {
+    0% {
+      transform: scale(1) translateY(0);
+      transform-origin: 50% 16%;
+    }
+    100% {
+      transform: scale(1.25) translateY(-15px);
+      transform-origin: top;
+    }
+  }
+
   .header-title {
     color: white;
     left: 15vw;
